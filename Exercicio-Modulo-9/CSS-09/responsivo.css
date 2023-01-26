@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    background-color: rgb(243, 237, 237);
+}
+
+h1 {
+    height: 6rem;
+    width: auto;
+    margin: 0 3%;
+    padding-top: 2rem;
+    background-color: rgb(114, 0, 0);
+    color: rgb(236, 236, 241);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.voltar {
+    width: 3%;
+    background-color: rgb(243, 237, 237);
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    color: rgb(173, 159, 76);
+    font-weight: bold;
+    font-size: large;
+    vertical-align: center;
+    padding-top: 25%;
+}
+
+    .voltar:hover {
+        background-color: #212A30;
+    }
+
+.caixa_centro {
+    margin: 0 3%;
+}
+
+section {
+	color: #4b0533;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.caixas {
+    height: auto;
+    background-image: url("imagem-css/homem.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80%;
+}
+
+	.caixa_centro p {
+		padding-left: 10%;
+	}
+
+.imagem-corte {
+    height: 350px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+    .imagem-corte img {
+        width: 100%;
+        height: 100%;
+    }
+
+fieldset {
+    padding: 0;
+}
+
+    .bloco {
+        padding: 2%;
+        display: flex;
+    }
+
+        .bloco-1 {
+            width: 48%;
+            margin-right: 4%;
+        }
+
+        .bloco-2 {
+            width: 48%;
+        }
+
+            .bloco-2 {
+                max-width: 100%;
+            }
+
+    input, select {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        border: 1px solid #b9b9af;
+        padding: 5px 0;
+    }
+
+        label {
+            font-weight: bold;
+            font-size: 20px;
+            color: rgb(27, 32, 32);
+        }
+
+    select, option {
+        color: rgb(22, 22, 22);
+    }
+
+    select {
+        height: 52px;
+    }
+
+    .bloco-3 {
+        padding: 2%;
+    }
+
+        .bloco-3 textarea {
+            padding: 5px 0;
+            width: 95%;
+        }
+
+    .texto {
+        font-size: 18px;
+        border: 1px solid #b9b9af;
+        width: 100%;
+        height: 100px;
+        padding: 10px 0 0 10px;
+    }
+
+.botao-envio {
+    width: 50px;
+    padding-left: 47%;
+}
+
+    .envio {
+        border: none;
+        padding: none;
+        height: 50px;
+        align-items: center;
+    }
+
+footer {
+    height: fit-content;
+    min-height: 250px;
+    background: #212A30;
+    display: flex;
+    margin-top: 50px;
+    min-height: 250px;
+    height: auto;
+}
+
+.selo, .apresentacao, .guia {
+    width: 33.3%;
+}
+
+    .img-selo {
+        height: 92%;
+        width: 92%;
+        border-radius: 50%;
+        padding: 4%;
+    }
+
+    .apresentacao {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: rgb(151, 133, 29);
+        padding: 0;
+        line-height: 150%;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+
+        .icones-sociais {
+            height: 25px;
+            width: 25px;
+        }
+
+    .guia {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        line-height: 250%;
+    }
+
+        .paginas {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: rgb(151, 133, 29);
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .guia div {
+            margin-bottom: 3%;
+            font-size: 1.5rem;
+        }
+
+        .atual {
+            color: rgb(243, 32, 32);
+        }
+
+
+@media (max-width: 900px) {
+
+    .caixa_centro p {
+		padding-left: 5%;
+	}
+
+    .voltar {
+        padding-top: 40%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    h1 {
+        margin: 0 6%;
+    }
+
+    .caixa_centro {
+        margin: 0 6%;
+    }
+
+        .caixa_centro p {
+            font-size: 1rem;
+        }
+
+    .voltar {
+        height: 0;
+        width: 0 6%;
+        padding-top: 60%;
+    }
+
+    .imagem-corte {
+        height: 200px;
+    }
+
+    .bloco {
+        display: block;
+    }
+
+        .bloco-1, .bloco-2 {
+            width: 96%;
+        }
+
+    footer {
+        display: block;
+    }
+
+        .selo, .apresentacao, .guia {
+            width: 100%;
+        }
+
+        .apresentacao {
+            margin-bottom: 15%;
+            margin-top: 15%;
+        }
+
+        .guia {
+            margin-bottom: 5%;
+        }
+}
+
