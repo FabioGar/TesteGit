@@ -1,0 +1,209 @@
+body {
+	background-color: #ECF0F1;
+	font-size: 20px;
+}
+
+header {
+	position: fixed;
+	width: 98.8%;
+	top: 0px;
+	background: #50cce2;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+	.barra-inicial {
+		color: black;
+	}
+
+	.arrow-icone {
+		height: 12px;
+		width: 12px;
+		position: relative;
+		top: 1px;
+	}
+
+.nome-pousada {
+	border-radius: 50px;
+	margin-top: 60px;
+	height: 400px;
+	background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2020/09/hoteis-pousadas-litoral-sul-bahia-eco-resort-arraial-dajuda-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+	h1 {
+		text-align: right;
+		font-size: 80px;
+		color: #1A5276;
+	}
+
+.barras {
+	display: flex;
+}
+
+.infos {
+	width: 50%;
+	background: linear-gradient(to bottom, #AED6F1, #2E86C1);
+	text-align: justify;
+	height: 930px;
+	border-radius: 50px 50px 0 0;
+}
+
+	.pacote-c {
+		color: #7C753A;
+	}
+
+		.conteudo-pacotes {
+			font-size: 0.8em;
+		}
+
+			p {
+				color: black;
+				margin-right: 20px;
+			}
+
+		.preco {
+			color: #009023;
+			font-style: italic;
+			font-weight: bold;
+			font-size: 1.3em;
+			width: all;
+			text-align: center;
+		}
+
+	.pacote-g {
+		color: #FFCF2E;
+	}
+
+	.pacote-p {
+		color: #B7FFF2;
+	}
+
+
+.icones-geral {
+	display: flex;
+	height: 30px;
+	width: 30px;
+}
+
+	.icone {
+		margin-left: 20px;
+	}
+
+
+.imagens-ambiente {
+	width: 50%;
+	height: 930px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+	.ambiente {
+		height: 250px;
+		width: 400px;
+	}
+
+.feedback-geral {
+	display: flex;
+}
+	
+	.demonstrar-feedback {
+		width: 50%;
+		height: 300px;
+		background: #E5E7E9;
+		display: flex;
+	}
+
+		.texto-feedback {
+			width: 50%;
+			padding: 30px;
+			font-style: italic;
+			text-align: justify;
+			font-size: 18px;
+		}
+
+		.estrelas {
+			width: 20px;
+			height: 20px;
+		}
+
+	.envio-feedback {
+		width: 50%;
+		height: 300px;
+		background: #E5E7E9;
+	}
+
+		.formularios {
+			display: flex;
+		}
+
+		.caixa-de-texto {
+			width: 300px;
+			margin-top: 80px; margin-left: 40px;
+		}
+
+		.enviar {
+			margin-left: 170px;
+		}
+
+
+	.avaliacao {
+		margin: 120px 0 0 50px;
+	}
+
+		.rating {
+			width: 20px;
+			height: 20px;
+			margin-left: 1px;
+		}
+
+
+footer {
+	background: #212A30;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+	.filiais {
+		width: 250px;
+		padding-left: 20px;
+	}
+
+	.social {
+		width: 250px;
+		padding-left: 20px;
+	}
+
+		.ordenar-redes {
+			display: flex;
+			flex-direction: column;
+		}
+
+			.texto-redes {
+				text-decoration: none;
+				color: black;
+			}
+
+			.icones-sociais {
+				height: 30px;
+				width: 30px;
+				margin-top: 20px;
+			}
+
+	.contatos {
+		width: 250px;
+		padding-left: 20px;
+	}
+
+		.ordenar-contatos {
+			display: flex;
+			flex-direction: column;
+			font-size: 16px;
+		}

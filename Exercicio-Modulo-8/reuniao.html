@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Fábio</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="CSS-08\reuniao.css">
+	</head>	
+
+	<body>
+        <header>
+            <h1> Contato </h1>
+        </header>
+
+        <div class="mudar_pag">
+            <a href="pousada.html">
+                <div class="voltar"> V <br> O <br> L <br> T <br> A <br> R  </div>
+            </a>    
+        </div>
+
+        <div class="caixa_centro">
+			<section class="caixas">
+				<p class="caixa1">
+					Gostou do Design?
+				</p>
+
+				<p class="caixa2">
+					<br> Das funcionalidades?
+				</p>
+
+				<p class="caixa3">
+					<br> Do que <u>você</u> precisa?
+				</p>
+			</section>
+
+            <div class="corte">
+                <img class="interna" src="Imagens\cafe.jpg" width="100%" height="100%">
+            </div>
+
+            <div>
+                <form autocomplete="off" target="_parent" method="post">   
+
+                    <fieldset>
+                        <legend>ENTRE EM CONTATO</legend>
+                        
+                        <div class="bloco">
+                            <div class="bloco-1">
+                                <div>
+                                    <label for="name"> Nome </label> <br>
+                                    <input type="text" id="name" name="name" placeholder="Insira seu nome"> <br> <br>
+                                </div>
+                                
+                                <div>
+                                    <label for="telefone"> Telefone </label> <br>
+                                    <input type="tel" id="telefone" name="telefone" placeholder="Insira seu número de telefone"> <br> <br>
+                                </div>
+                            </div>
+
+                            <div class="bloco-2">
+                                <div>
+                                    <label for="email"> Email </label> <br>
+                                    <input type="email" id="email" name="email" placeholder="Insira seu endereço de email" required="required"> <br> <br>
+                                </div>
+
+                                <div>
+                                    <label for="ajuda"> Escolha um Serviço </label> <br>
+                                    <select id="ajuda" name="ajuda">
+                                        <option selected>Selecione uma opção</option>
+                                        <option value="site">Criação de Site</option>
+                                        <option value="feedback">Feedback</option>
+                                        <option value="pagamento">Pagamento</option>
+                                        <option value="duvidas">Dúvidas</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bloco-3">
+                            <label for="pedido"> Seu requerimento </label> <br>
+                            <textarea class="texto" name="pedido" id="pedido" placeholder="Digite sua Mensagem"></textarea>
+                        </div>
+
+                        <div>
+                            <input type="image" src="Icones/submit.svg" alt="Submit" width="50" class="envio">
+                        </div>
+
+                    </fieldset> 
+                </form>
+
+            <footer>
+                <img class="selo" src="https://s2.glbimg.com/r8_8RpZ2DIf-IC47EY2ym5gyKsE=/0x0:1130x753/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/F/x/GGBqltRIKfRvxXkmzb7A/busca-booleana-gupy.webp">
+
+                <p class="apresentacao">
+                    <br>
+                    Desenvolvido por Fábio Garcia <br> <br>
+                    &nbsp www.linkedin.com/in/fábio-garcia-359172213 <br> <br>
+                    <img class="icones-sociais" src="icones/at-solid.svg"> sorenute@gmail.com
+                </p>
+
+                <nav class="guia">
+                    <p class="paginas"> Guia das Páginas </p>
+                    <a href="inicial.html" class="paginas"> Homepage </a> 
+                    <a href="tabela.html" class="paginas"> Modelo de Tabela </a>
+                    <a href="pousada.html" class="paginas"> Modelo de Página </a>
+                    <a href="reuniao.html" class="paginas"> <div class="atual"> Contato </div> </a>
+                </nav>
+            </footer>
+
+        </div>
+
+    </body>
+</html>

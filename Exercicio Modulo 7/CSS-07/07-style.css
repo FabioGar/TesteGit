@@ -1,0 +1,41 @@
+body {
+	background-color: #EDDCFA;
+	font-size: 20px;
+}
+
+h1, td {
+	text-align: center;
+}
+
+table, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.coluna {
+	width: 22%;
+}
+
+
+td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background: #5C8BBA;
+	height: 50px;
+}
+
+tr:nth-child(even) {
+	background: #8DE758;
+}
+
+table {
+	width: 80%;
+	height: 400px;
+	margin-left: 10%;
+	background: #C4FFA2;
+}
